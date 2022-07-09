@@ -1,7 +1,12 @@
 export const ColoredMessage = (props) => {
+  //propsを分割代入
+  const { color, children } = props;
+
   const contentStyle = {
-    color: props.color,
+    color, // props.が不要。また、Jsの省略記法の使用
     fontSize: "20px"
   };
-  return <p style={contentStyle}>{props.children}</p>;
+
+  //↓ props.が不要
+  return <p style={contentStyle}>{children}</p>;
 };
