@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 
-const App = () => {
+export const App = () => {
   return (
     <>
       <h1>こんにちは！</h1>
