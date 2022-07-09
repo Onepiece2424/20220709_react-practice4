@@ -2,12 +2,13 @@ import { useState } from "react";
 import { ColoredMessage } from "./components/ColoredMessage";
 
 export const App = () => {
+  console.log("レンダリング");
   //Stateの定義
   const [num, setNum] = useState(0);
 
   //ボタンを押した時のStateのカウントアアップ
   const onClickButton = () => {
-    setNum(num + 1);
+    setNum(num + 2);
   };
   return (
     <>
