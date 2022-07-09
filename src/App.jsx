@@ -7,7 +7,7 @@ export const App = () => {
 
   //ボタンを押した時のStateのカウントアアップ
   const onClickButton = () => {
-    setNum(num + 1);
+    setNum(num + 2);
   };
   return (
     <>
